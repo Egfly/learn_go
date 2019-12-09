@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="50f92448-32de-46bb-9cba-e28751f01c14" name="Default Changelist" comment="" />
+    <list default="true" id="50f92448-32de-46bb-9cba-e28751f01c14" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day2/example_1/add/add.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day2/example_1/main/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day2/example_2/add/add.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day2/example_2/main/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day2/example_3/main/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day2/example_3/test_init/test_init.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day2/example_3/test_init_2/test_init2.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day2/example_4/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,14 +27,24 @@
     </option>
   </component>
   <component name="GOROOT" path="C:\Go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
   <component name="ProjectId" id="1UbCz93kt9RORx7A8gy6x1K70YR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="Update" />
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="configurable.Global.GOPATH.is.expanded" value="true" />
     <property name="configurable.Module.GOPATH.is.expanded" value="true" />
@@ -44,7 +65,7 @@
       <recent name="F:\code\oldBoyGo\day1" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build leetcode_question">
+  <component name="RunManager" selected="Go Build.go build day2/example_4">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="oldBoyGo" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -59,33 +80,43 @@
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="DIRECTORY" />
       <filePath value="$PROJECT_DIR$/day1/hello.go" />
-      <directory value="$PROJECT_DIR$/src/day1" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build day1/" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="oldBoyGo" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="DIRECTORY" />
-      <filePath value="$PROJECT_DIR$/day1/hello.go" />
       <package value="main" />
       <directory value="$PROJECT_DIR$/day1" />
       <method v="2" />
     </configuration>
-    <configuration name="go build day1/goroutine_example/main" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build day2/example_1/main" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="oldBoyGo" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/src/day1/goroutine_example/main/main.go" />
-      <package value="day1/goroutine_example/main" />
+      <filePath value="$PROJECT_DIR$/src/day2/example_1/main/main.go" />
+      <package value="day2/example_1/main" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build day1/package_example/main" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build day2/example_2/main" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="oldBoyGo" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/src/day1/package_example/main/main.go" />
-      <package value="day1/package_example/main" />
+      <filePath value="$PROJECT_DIR$/src/day2/example_2/main/main.go" />
+      <package value="day2/example_2/main" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build day2/example_3/main" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="oldBoyGo" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/src/day2/example_3/main/main.go" />
+      <package value="day2/example_3/main" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build day2/example_4" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="oldBoyGo" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/src/day2/example_4/main.go" />
+      <package value="day2/example_4" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
@@ -98,28 +129,20 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build oldBoyGo/" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="oldBoyGo" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="DIRECTORY" />
-      <filePath value="$PROJECT_DIR$/src/day1/package_example/main/main.go" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Go Build.go build day1/" />
-      <item itemvalue="Go Build.go build oldBoyGo/" />
-      <item itemvalue="Go Build.go build day1/package_example/main" />
-      <item itemvalue="Go Build.go build day1/goroutine_example/main" />
       <item itemvalue="Go Build.go build leetcode_question" />
+      <item itemvalue="Go Build.go build day2/example_1/main" />
+      <item itemvalue="Go Build.go build day2/example_2/main" />
+      <item itemvalue="Go Build.go build day2/example_3/main" />
+      <item itemvalue="Go Build.go build day2/example_4" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build day2/example_4" />
+        <item itemvalue="Go Build.go build day2/example_3/main" />
+        <item itemvalue="Go Build.go build day2/example_2/main" />
+        <item itemvalue="Go Build.go build day2/example_1/main" />
         <item itemvalue="Go Build.go build leetcode_question" />
-        <item itemvalue="Go Build.go build day1/goroutine_example/main" />
-        <item itemvalue="Go Build.go build day1/package_example/main" />
-        <item itemvalue="Go Build.go build oldBoyGo/" />
-        <item itemvalue="Go Build.go build day1/" />
       </list>
     </recent_temporary>
   </component>
@@ -153,6 +176,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="181" key="#GOPATH/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1575616691372" />
+    <state x="552" y="181" key="#Inspections" timestamp="1575858510238">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="181" key="#Inspections/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1575858510238" />
     <state x="552" y="181" key="#Vim_Emulation" timestamp="1575616218795">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -161,25 +188,37 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1575616685729" />
-    <state x="453" y="273" key="FileChooserDialogImpl" timestamp="1575620082228">
+    <state x="97" y="282" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1575859427485">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="453" y="273" key="FileChooserDialogImpl/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1575620082228" />
-    <state width="1877" height="278" key="GridCell.Tab.0.bottom" timestamp="1575855879590">
+    <state x="97" y="282" key="#com.intellij.fileTypes.FileTypeChooser/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1575859427485" />
+    <state x="453" y="273" key="FileChooserDialogImpl" timestamp="1575860555335">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="278" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1575855879590" />
-    <state width="1877" height="278" key="GridCell.Tab.0.center" timestamp="1575855879590">
+    <state x="453" y="273" key="FileChooserDialogImpl/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1575860555335" />
+    <state width="1877" height="278" key="GridCell.Tab.0.bottom" timestamp="1575862206084">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="278" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1575855879590" />
-    <state width="1877" height="278" key="GridCell.Tab.0.left" timestamp="1575855879590">
+    <state width="1877" height="278" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1575862206084" />
+    <state width="1877" height="278" key="GridCell.Tab.0.center" timestamp="1575862206084">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="278" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1575855879590" />
-    <state width="1877" height="278" key="GridCell.Tab.0.right" timestamp="1575855879590">
+    <state width="1877" height="278" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1575862206084" />
+    <state width="1877" height="278" key="GridCell.Tab.0.left" timestamp="1575862206084">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="278" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1575855879590" />
+    <state width="1877" height="278" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1575862206084" />
+    <state width="1877" height="278" key="GridCell.Tab.0.right" timestamp="1575862206084">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="278" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1575862206084" />
+    <state x="754" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1575857190348">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="754" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1575857190348" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1575859695121">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1575859695121" />
   </component>
 </project>
