@@ -7,14 +7,15 @@ import "fmt"
 左读完全相同的字符串。
 */
 func isPalindrome(s string) bool {
+	r := []rune(s)
 	start := 0
-	end := len(s) - 1
+	end := len(r) - 1
 	result := true
 	for {
 		if start >= end {
 			break
 		}
-		if s[start] != s[end] {
+		if r[start] != r[end] {
 			result = false
 			break
 		}
