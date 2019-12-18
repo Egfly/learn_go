@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"math/rand"
+)
 
 /**
 结构体实现单链表
@@ -24,6 +27,19 @@ func foreach(p *student) {
 	}
 }
 
+func tailInsert(p *student) {
+	// 循环插入 生成10个节点的链表
+	for i := 0; i < 10; i++ {
+		var students = student{
+			name:  fmt.Sprintf("student%d", i+3),
+			age:   i + 3,
+			score: rand.Float32() * 100,
+		}
+		p.next = &students
+		p = &students
+	}
+}
+
 func main() {
 	head := student{
 		name:  "head",
@@ -31,20 +47,22 @@ func main() {
 		score: 1,
 		next:  nil,
 	}
-
+	// 尾部插入
 	student1 := student{
 		name:  "student1",
 		age:   2,
 		score: 2,
 	}
 	head.next = &student1
-
+	// 尾部插入
 	student2 := student{
 		name:  "student2",
 		age:   3,
 		score: 3,
 	}
 	student1.next = &student2
-
+	foreach(&head)
+	// 尾部插入10个元素
+	tailInsert(&student2)
 	foreach(&head)
 }
