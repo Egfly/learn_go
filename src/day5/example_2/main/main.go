@@ -16,6 +16,14 @@ type student struct {
 	next  *student
 }
 
+//遍历链表
+func foreach(p *student) {
+	for p != nil {
+		fmt.Println(*p)
+		p = p.next
+	}
+}
+
 func main() {
 	head := student{
 		name:  "head",
@@ -30,10 +38,13 @@ func main() {
 		score: 2,
 	}
 	head.next = &student1
-	//遍历链表
-	var p *student = &head
-	for p != nil {
-		fmt.Println(*p)
-		p = p.next
+
+	student2 := student{
+		name:  "student2",
+		age:   3,
+		score: 3,
 	}
+	student1.next = &student2
+
+	foreach(&head)
 }
