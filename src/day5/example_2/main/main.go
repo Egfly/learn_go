@@ -27,6 +27,7 @@ func foreach(p *student) {
 	}
 }
 
+//尾部插入
 func tailInsert(p *student) {
 	// 循环插入 生成10个节点的链表
 	for i := 0; i < 10; i++ {
@@ -38,6 +39,21 @@ func tailInsert(p *student) {
 		p.next = &students
 		p = &students
 	}
+}
+
+// 头部插入
+func headInsert(p *student) *student {
+	for i := 0; i < 10; i++ {
+		var student = student{
+			name:  fmt.Sprintf("head insert student %d", i),
+			age:   i,
+			score: rand.Float32() * 100,
+		}
+		student.next = p
+		p = &student
+	}
+
+	return p
 }
 
 func main() {
@@ -62,7 +78,13 @@ func main() {
 	}
 	student1.next = &student2
 	foreach(&head)
+	fmt.Println()
 	// 尾部插入10个元素
 	tailInsert(&student2)
 	foreach(&head)
+	fmt.Println()
+
+	// 头部插入
+	newHead := headInsert(&head)
+	foreach(newHead)
 }
