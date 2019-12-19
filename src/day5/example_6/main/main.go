@@ -12,6 +12,7 @@ type Cart struct {
 
 /**
 匿名字段
+使用匿名字段，可以实现属性的继承
 */
 type Train struct {
 	Cart
