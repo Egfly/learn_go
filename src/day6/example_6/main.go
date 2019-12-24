@@ -30,16 +30,82 @@ func testInt(b interface{}) {
 	c := val.Int()
 	fmt.Println(c)
 }
+
+func testStruct(a interface{}) {
+	val := reflect.ValueOf(a)
+	kd := val.Kind()
+	if kd != reflect.Struct {
+		fmt.Println("expect a struct")
+		return
+	}
+
+	num := val.NumField()
+	fmt.Printf("struct has %d fields\n", num)
+
+	for i := 0; i < num; i++ {
+		fmt.Printf("%d %v\n", i, val.Field(i))
+	}
+
+	numOfMethod := val.NumMethod()
+	fmt.Printf("struct has %d method\n", numOfMethod)
+
+	var param []reflect.Value
+	val.Method(0).Call(param)
+}
+
+func (s Student) Set(name string, age int) {
+	s.Name = name
+	s.Age = age
+}
+
+func (s Student) Print() {
+	fmt.Println(s)
+}
+
+/**
+当传入的参数是指针时，需要使用Elem()方法才能调用struct的type和valueOf
+*/
+func testReflectPtr(a interface{}) {
+	val := reflect.ValueOf(a)
+	kd := val.Elem().Kind()
+	if kd != reflect.Struct {
+		fmt.Println("expect a struct")
+		return
+	}
+
+	num := val.Elem().NumField()
+	fmt.Printf("struct has %d fields\n", num)
+
+	for i := 0; i < num; i++ {
+		fmt.Printf("%d %v\n", i, val.Elem().Field(i))
+	}
+
+	numOfMethod := val.Elem().NumMethod()
+	fmt.Printf("struct has %d method\n", numOfMethod)
+
+	var param []reflect.Value
+	val.Elem().Method(0).Call(param)
+}
 func main() {
 	//a := 20
 	//test(a)
 
-	b := Student{
-		Name: "student",
-		Age:  27,
-	}
-	test(b)
+	//b := Student{
+	//	Name: "student",
+	//	Age:  27,
+	//}
+	//test(b)
+	//
+	//c := 30
+	//testInt(c)
 
-	c := 30
-	testInt(c)
+	//testStruct(123)
+
+	d := Student{
+		Name: "stu01",
+		Age:  20,
+	}
+	//testStruct(d)
+
+	testReflectPtr(&d)
 }
