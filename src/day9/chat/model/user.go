@@ -7,7 +7,7 @@ const (
 
 type User struct {
 	UserId    int    `json:"user_id"`
-	Passwd    string `json:"passwd`
+	Passwd    string `json:"password"`
 	Nick      string `json:"nick"`
 	Sex       string `json:"sex"`
 	Header    string `json:"header"`
