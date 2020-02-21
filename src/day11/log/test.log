@@ -1,0 +1,3 @@
+2020/02/21 16:55:40.900 [D]  this is a debug log
+2020/02/21 16:55:40.900 [D]  this is a trace log
+2020/02/21 16:55:40.900 [W]  this is a warn log
