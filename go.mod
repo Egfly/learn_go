@@ -10,8 +10,9 @@ require (
 	github.com/coreos/pkg v0.0.0-20180928190104-399ea9e2e55f // indirect
 	github.com/garyburd/redigo v1.6.0 // indirect
 	github.com/golang/protobuf v1.3.4 // indirect
-	github.com/google/uuid v1.1.1 // indirect
+	github.com/google/uuid v1.1.1
 	github.com/hpcloud/tail v1.0.0
+	github.com/jinzhu/gorm v1.9.12
 	github.com/shiena/ansicolor v0.0.0-20151119151921-a422bbe96644 // indirect
 	go.uber.org/zap v1.14.0 // indirect
 	golang.org/x/net v0.0.0-20200301022130-244492dfa37a // indirect
